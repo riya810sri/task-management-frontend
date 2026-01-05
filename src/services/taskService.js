@@ -1,5 +1,5 @@
 // API service for task management
-const API_BASE_URL = 'https://task-management-backend-pqyi.onrender.com';
+const API_BASE_URL = process.env.REACT_APP_API_URL;
 
 // Get all tasks
 export const fetchTasks = async () => {
