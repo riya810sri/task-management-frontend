@@ -1,5 +1,5 @@
 // API service for task management
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://task-management-backend-pqyi.onrender.com';
 
 // Get all tasks
 export const fetchTasks = async () => {
